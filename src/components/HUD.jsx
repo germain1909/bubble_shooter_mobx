@@ -1,7 +1,9 @@
 import React from "react";
 import { observer } from "mobx-react-lite";
 import gameStore from "../gameStore";
-import { BUBBLE_R, CANVAS_H, CANVAS_W } from "../config";
+import { BUBBLE_R} from "../config";
+//import { BUBBLE_R, CANVAS_H, CANVAS_W } from "../config";
+
 
 const HUD = observer(() => {
   return (
